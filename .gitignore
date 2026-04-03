@@ -1,0 +1,5 @@
+# Ignore sensitive certificate and private key
+certificate.pem
+private_key.pem
+.env
+.vercel

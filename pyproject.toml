@@ -1,0 +1,16 @@
+[project]
+name = "yuzumi-accounting-be"
+version = "0.1.0"
+description = "FastAPI backend for YUZUMI"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+    "python-dotenv",
+    "sqlmodel",
+    "psycopg2-binary"
+]
+
+# REMOVE the [build-system] section entirely.
+# Vercel doesn't need it to run a serverless function.
